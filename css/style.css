@@ -224,3 +224,75 @@ section {
 .hotel-location {
     margin-bottom: 16px;
 }
+/*                        tour                 */
+.tour-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 31px 28px;
+}
+
+.tour-search {
+    margin-right: 51px;
+}
+
+.tour-search-dsc{
+    margin-bottom: 15px;
+}
+
+.tour-search-item:not(:last-child) {
+    margin-right: 41px;
+}
+
+/*                     contacts                     */
+
+.contacts-list {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 23px 50px;
+
+}
+
+.contacts-item:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+.contacts-caption {
+    margin-right: 20px;
+}
+
+.contact-text {
+    flex-direction: column;
+    width: 234px;
+
+}
+/*             footer                              */
+.footer-container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #333333;
+    border-radius: 15px;
+}
+
+.footer-rights {
+    width: 302px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-copyright {
+    margin-bottom: 40px;
+}
+
+.footer-offer {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.footer-address {
+    flex-direction: column;
+}
