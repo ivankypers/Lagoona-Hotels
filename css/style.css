@@ -1,0 +1,226 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 1200px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+.section-title {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+/*                     header                              */
+.header {
+    padding: 30px 0;
+    margin-bottom: 70px;
+}
+
+.header-container {
+    flex-direction: column;
+
+}
+
+.header-upper {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.header-bottom {
+    padding: 30px 45px;
+    outline: 1px solid black;
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+
+.header-number {
+    margin-right: auto;
+}
+
+.header-nav {
+    align-items: center;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header-list {
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.header-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+/*  special  */
+.special-container {
+    flex-direction: column;
+}
+
+
+.special-items {
+    flex-direction: column;
+}
+
+.special-item {
+    outline: 1px solid black;
+    width: 573px;
+    padding: 40px 45px;
+
+}
+
+.special-item:not(:last-child) {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.special-item_hotels {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.special-caption {
+    margin-bottom: 15px;
+}
+
+.special-price {
+    display: block;
+    margin-bottom: 45px;
+}
+/*          about           */
+.about-container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-article {
+    max-width: 888px;
+}
+/*          services                     */
+.services-container {
+    flex-direction: column;
+}
+
+.services-items {
+    flex-wrap: wrap;
+}
+
+.services-item {
+    padding-top: 165px;
+    width: 573px;
+    background: white url("/img/services-img.jpg") no-repeat;
+}
+
+.services-item:not(:nth-child(2n)) {
+    margin-bottom: 25px;
+    margin-right: 24px;
+}
+
+.services-text {
+    padding: 25px 45px;
+}
+/*            advantages           */
+.advantages-container {
+    flex-direction: column;
+
+}
+
+.advantages-items {
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 276px;
+    outline: 1px solid black;
+    margin-bottom: 22px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+    margin-right: 22px;
+}
+
+.advantages-dsc {
+    padding: 32px 45px;
+}
+/*              placement                */
+.placement-container {
+    flex-direction: column;
+}
+
+.placement-items {
+    flex-wrap: wrap;
+}
+
+.placement-item {
+    width: 374px;
+    margin-bottom: 24px;
+    outline: 1px solid black;
+}
+
+.placement-item:not(:nth-child(3n)){
+    margin-right: 24px;
+}
+
+.placement-text {
+    padding: 32px 45px 45px;
+}
+
+.price-rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.hotel-name {
+    margin-bottom: 16px;
+}
+
+.hotel-location {
+    margin-bottom: 16px;
+}
