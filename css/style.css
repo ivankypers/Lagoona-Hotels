@@ -518,28 +518,100 @@ section {
 
 }
 /*             footer                              */
+.footer {
+    color: #FFFFFF;
+}
+
 .footer-container {
-    align-items: center;
-    justify-content: space-between;
+
+    align-items: flex-start;
     padding: 45px;
     background-color: #333333;
     border-radius: 15px;
+    background-image: url("/img/footer-logo.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
 }
 
 .footer-rights {
     width: 302px;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 125px;
 }
 
 .footer-copyright {
     margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
 }
 
 .footer-offer {
     margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+}
+
+.user-privacy {
+    color: #CC9933;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .footer-address {
     flex-direction: column;
+    margin-right: 270px;
+}
+
+.footer-index {
+    margin-bottom: 15px;
+}
+.footer-numbers {
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.footer-emails {
+    flex-direction: column;
+}
+
+.footer-contacts {
+    color: #CC9933;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.social-item {
+    margin-bottom: 20px;
+}
+
+.social-item_ta {
+    display: block;
+    background-image: url("/img/tripad.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.social-item_ok {
+    display: block;
+    background-image: url("/img/ok.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.social-item_vk {
+    display: block;
+    background-image: url("/img/vk.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    width: 30px;
+    height: 30px;
 }
