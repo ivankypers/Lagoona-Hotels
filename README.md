@@ -1,2 +1,2 @@
 # Lagoona-Hotels
-Semantic HTML code only 
+Each html + css training (with flexbox layout)
