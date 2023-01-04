@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+    url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -9,12 +37,18 @@ html {
 
 body {
     min-width: 1200px;
+    font-family: Montserrat, sans-serif;
+    background-color: #E5E5E5;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
+}
+
+a {
+    text-decoration: none;
 }
 
 ol, ul {
@@ -50,6 +84,10 @@ section {
 .section-title {
     padding-left: 40px;
     margin-bottom: 20px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 /*                     header                              */
@@ -69,8 +107,9 @@ section {
 }
 
 .header-bottom {
-    padding: 30px 45px;
-    outline: 1px solid black;
+    padding: 20px 45px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
 }
 
 .header-logo {
@@ -79,6 +118,29 @@ section {
 
 .header-number {
     margin-right: auto;
+    color: #666666;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.header-login {
+    color: #CC9933;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background-image: url("/img/head-login.svg");
+    background-repeat: no-repeat;
+    background-size: 21px 12px;
+    background-position: left center;
+    padding-left: 28px;
+}
+
+.head-number {
+    color: #666666;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .header-nav {
@@ -94,8 +156,25 @@ section {
     margin-right: auto;
 }
 
+.header-link {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
 .header-btn:not(:last-child) {
     margin-right: 40px;
+}
+
+.btn {
+    color: #CC9933;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    padding: 13px 20px;
 }
 
 /*  special  */
@@ -109,9 +188,36 @@ section {
 }
 
 .special-item {
-    outline: 1px solid black;
+    border-radius: 15px;
     width: 573px;
     padding: 40px 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.special-item_place1 {
+    background-image: url("/img/maldives.jpg");
+}
+
+.special-item_place2 {
+    background-image: url("/img/krit.jpg");
+}
+
+.special-item_hotels {
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("/img/numbers.jpg");
+}
+
+.special-caption_hotels {
+    padding-top: 160px;
+    margin-bottom: 15px;
+    max-width: 299px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
 
 }
 
@@ -120,18 +226,34 @@ section {
     margin-bottom: 24px;
 }
 
-.special-item_hotels {
-    flex-direction: column;
-    justify-content: center;
-}
-
 .special-caption {
     margin-bottom: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .special-price {
     display: block;
     margin-bottom: 45px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.special-link {
+    color: #F0BF5F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    background-image: url("/img/special-arr.svg");
+    background-repeat: no-repeat;
+    background-size: 11px 12px;
+    background-position: right center;
+    padding-right: 12px;
+    padding-bottom: 3px;
 }
 /*          about           */
 .about-container {
@@ -141,6 +263,13 @@ section {
 
 .about-article {
     max-width: 888px;
+}
+
+.about-dsc {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
 }
 /*          services                     */
 .services-container {
