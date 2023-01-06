@@ -129,7 +129,7 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    background-image: url("../_images/head-login.SVG");
+    background-image: url("../_images/headlogin.svg");
     background-repeat: no-repeat;
     background-size: 21px 12px;
     background-position: left center;
@@ -307,7 +307,7 @@ section {
     background: white url("../_images/services-img.jpg") no-repeat;
 }
 .services-item_rent {
-    background: white url("../_images/banket-services.jpg") no-repeat;
+    background: white url("../_images/banketservices.jpg") no-repeat;
 }
 .services-item_pool {
     background: white url("../_images/pool-services.jpg") no-repeat;
@@ -366,34 +366,34 @@ section {
 }
 
 .advantages-item-bg_first {
-    background-image: url("../_images/adv-first.svg");
+    background-image: url("../_images/advfirst.svg");
 }
 .advantages-item-bg_second {
-    background-image: url("../_images/adv-second.svg");
+    background-image: url("../_images/advsecond.svg");
 
 }
 .advantages-item-bg_third {
-    background-image: url("../_images/adv-third.svg");
+    background-image: url("../_images/advthird.svg");
 
 }
 .advantages-item-bg_forth {
-    background-image: url("../_images/adv-fourth.svg");
+    background-image: url("../_images/advfourth.svg");
 
 }
 .advantages-item-bg_fifth {
-    background-image: url("../_images/adv-fifth.svg");
+    background-image: url("../_images/advfifth.svg");
 
 }
 .advantages-item-bg_sixth {
-    background-image: url("../_images/adv-sixth.svg");
+    background-image: url("../_images/advsixth.svg");
 
 }
 .advantages-item-bg_seventh {
-    background-image: url("../_images/adv-seventh.svg");
+    background-image: url("../_images/advseventh.svg");
 
 }
 .advantages-item-bg_eighth {
-    background-image: url("../_images/adv-eighth.svg");
+    background-image: url("../_images/adveighth.svg");
 
 }
 
@@ -463,7 +463,7 @@ section {
     padding-bottom: 27px;
     align-items: flex-end;
     justify-content: center;
-    background-image: url("../_images/hotel-vari.jpg");
+    background-image: url("../_images/hotelvari.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +473,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../_images/white-trian.svg");
+    background-image: url("../_images/whitetrian.svg");
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: right center;
@@ -616,7 +616,7 @@ section {
     padding: 45px;
     background-color: #333333;
     border-radius: 15px;
-    background-image: url("../_images/footer-logo.svg");
+    background-image: url("../_images/footerlogo.svg");
     background-repeat: no-repeat;
     background-position: 80% 100%;
 }
