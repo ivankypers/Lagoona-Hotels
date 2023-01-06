@@ -161,6 +161,11 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+    transition: .2s;
+}
+
+.header-link:hover {
+    color: black;
 }
 
 .header-btn:not(:last-child) {
@@ -477,24 +482,65 @@ section {
 }
 /*                        tour                 */
 .tour-container {
-    flex-direction: column;
-    justify-content: center;
-    padding: 31px 28px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
-.tour-search {
-    margin-right: 51px;
+.tour-title {
+
 }
 
-.tour-search-dsc{
+.form-title {
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
     margin-bottom: 15px;
 }
 
-.tour-search-item:not(:last-child) {
-    margin-right: 41px;
+
+.form-wrapper {
+    background-color: white;
+    padding: 31px 28px;
+    border-radius: 15px;
+    justify-content: space-between;
 }
 
+.form-select {
+    width: 169px;
+    border: none;
+
+}
+
+.form-input {
+    width: 121px;
+    border: none;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.form-input::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.form-input {
+    opacity: 1;
+}
+
+.form-btn {
+    min-width: 108px;
+}
+
+
+
+
+
 /*                     contacts                     */
+.contacts-container {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 45px;
+}
 
 .contacts-list {
     flex-direction: column;
@@ -510,11 +556,19 @@ section {
 
 .contacts-caption {
     margin-right: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .contact-text {
     flex-direction: column;
     width: 234px;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 
 }
 /*             footer                              */

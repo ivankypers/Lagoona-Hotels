@@ -402,96 +402,54 @@
                 </ul>
             </div>
         </section>
-        <!--<section class="tours">
-            <div class="container tour-container flex">
-                <div class="section-title tour-title">
-                    <h2>Хочу тур</h2>
-                </div>
-                <ul class="tour-search flex">
-                    <li class="tour-search-item">
-                        <span class="tour-search-dsc">Город вылета</span>
-                        <div class="tour-search-choose">
-                            Санкт-Петербург
+        <section class="tour">
+            <div class="container tour-container">
+                <h2 class="section-title tour-title">Хочу Тур</h2>
+                <form action="https://jsonplaceholder.typicode.com/posts">
+                    <div class="form-wrapper flex">
+                        <div class="select-wrapper">
+                            <label>
+                                <span class="form-title">Город Вылета</span>
+                                <select class="form-select" name="Country-out">
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                </select>
+                            </label>
                         </div>
-                    </li>
-                    <li class="tour-search-item">
-                        <span class="tour-search-dsc">Страна</span>
-                        <div class="tour-search-choose">
-                            Австралия
-                        </div>
-                    </li>
-                    <li class="tour-search-item">
-                        <span class="tour-search-dsc">Дата прибытия</span>
-                        <div class="tour-search-choose">
-                            18.10.2021
-                        </div>
-                    </li>
-                    <li class="tour-search-item">
-                        <span class="tour-search-dsc">Ночей</span>
-                        <div class="tour-search-choose">
-                            6
+                        <div class="select-wrapper">
+                            <label>
+                                <span class="form-title">Страна</span>
+                                <select class="form-select" name="Country-in">
+                                    <option value="Австралия">Австралия</option>
+                                </select>
+                            </label>
 
                         </div>
-                    </li>
-                    <li class="tour-search-item">
-                        <span class="tour-search-dsc">Туристы</span>
-                        <div class="tour-search-choose">
-                            2
-
+                        <div class="input-wrapper">
+                            <label>
+                                <span class="form-title">Дата прибытия</span>
+                            <input class="form-input" type="date" name="date-arrive">
+                            </label>
                         </div>
-                    </li>
-                </ul>
-                <button class="btn tour-btn">
-                    Найти
-                </button>
-            </div>
-        </section>-->
-        <section class="contacts">
-            <div class="container">
-                <h2 class="section-title contacts-title">
-                    Контакты
-                </h2>
-                <div class="contact-content flex">
-                    <address class="contacts-address">
-                        <ul class="contacts-list flex">
-                            <li class="contacts-item flex">
-                                <h3 class="contacts-caption">Адрес</h3>
-                                <div class="contact-text flex">
-                                    <address>Москва, улица Юности, дом 5 строение 4, офис 2</address>
-                                </div>
-                            </li>
-                            <li class="contacts-item flex">
-                                <h3 class="contacts-caption">Телефоны</h3>
-                                <div class="contact-text flex">
-                                    <a href="tel:+74995356434" class="contacts-number">+7 499 535-64-34</a>
-                                    <a href="tel:+74950050544" class="contacts-number">+7 495 005-05-44</a>
-                                </div>
-                            </li>
-                            <li class="contacts-item flex">
-                                <h3 class="contacts-caption">Email</h3>
-                                <div class="contact-text flex">
-                                    <a href="mailto:lg.oona@mail.ru" class="contacts-email">lg.oona@mail.ru</a>
-                                    <small>По вопросам бронирования</small>
-                                    <a href="mailto:hotels.ln@mail.ru" class="contacts-email">hotels.ln@mail.ru</a>
-                                    <small>по вопросам сотрудничества</small>
-                                </div>
-                            </li>
-                            <li class="contacts-item flex">
-                                <h3 class="contacts-caption">График</h3>
-                                <div class="contact-text">
-                                    Понедельник-пятница, с 10:00 до 19:00
-                                </div>
-                            </li>
-                        </ul>
-                        <button class="btn contacts-btn">Построить маршрут</button>
-                    </address>
-
-                    <div class="contacts-image">
-                        <img src="img/contacts-image.jpg" alt="Нащ офис">
+                        <div class="input-wrapper">
+                            <label>
+                                <span class="form-title">Ночей</span>
+                            <input class="form-input" type="number" name="nights" min="1" step="1" required>
+                            </label>
+                        </div>
+                        <div class="input-wrapper">
+                            <label>
+                                <span class="form-title">Туристы</span>
+                            <input class="form-input" type="number" name="amount-tourists" min="1" max="20" step="1" required>
+                            </label>
+                        </div>
+                        <button class="btn form-btn">Найти</button>
                     </div>
-                </div>
+
+
+                </form>
             </div>
         </section>
+
     </main>
     <footer class="footer">
         <div class="container footer-container flex">
