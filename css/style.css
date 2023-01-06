@@ -616,7 +616,7 @@ section {
     padding: 45px;
     background-color: #333333;
     border-radius: 15px;
-    background-image: url("../img/footer-logo.SVG");
+    background-image: url("../img/footer-logo.svg");
     background-repeat: no-repeat;
     background-position: 80% 100%;
 }
@@ -678,7 +678,7 @@ section {
 
 .social-item_ta {
     display: block;
-    background-image: url("../img/tripad.SVG");
+    background-image: url("../img/tripad.svg");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
@@ -687,7 +687,7 @@ section {
 }
 .social-item_ok {
     display: block;
-    background-image: url("../img/ok.SVG");
+    background-image: url("../img/ok.svg");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
@@ -696,7 +696,7 @@ section {
 }
 .social-item_vk {
     display: block;
-    background-image: url("../img/vk.SVG");
+    background-image: url("../img/vk.svg");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
