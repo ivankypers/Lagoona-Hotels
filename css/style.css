@@ -208,11 +208,11 @@ section {
 }
 
 .special-item_place1 {
-    background-image: url("../img/maldives.JPG");
+    background-image: url("./img/maldives.JPG");
 }
 
 .special-item_place2 {
-    background-image: url("../img/krit.JPG");
+    background-image: url("./img/krit.JPG");
 }
 
 .special-item_hotels {
