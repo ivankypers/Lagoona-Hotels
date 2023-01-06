@@ -208,17 +208,17 @@ section {
 }
 
 .special-item_place1 {
-    background-image: url("./img/maldives.JPG");
+    background-image: url("../img/maldives.jpg");
 }
 
 .special-item_place2 {
-    background-image: url("./img/krit.JPG");
+    background-image: url("../img/krit.jpg");
 }
 
 .special-item_hotels {
     flex-direction: column;
     justify-content: center;
-    background-image: url("../img/numbers.JPG");
+    background-image: url("../img/numbers.jpg");
 }
 
 .special-caption_hotels {
@@ -259,7 +259,7 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    background-image: url("../img/special-arr.SVG");
+    background-image: url("../img/special-arr.svg");
     background-repeat: no-repeat;
     background-size: 11px 12px;
     background-position: right center;
@@ -304,16 +304,16 @@ section {
 }
 
 .services-item_service {
-    background: white url("../img/services-img.JPG") no-repeat;
+    background: white url("../img/services-img.jpg") no-repeat;
 }
 .services-item_rent {
-    background: white url("../img/banket-services.JPG") no-repeat;
+    background: white url("../img/banket-services.jpg") no-repeat;
 }
 .services-item_pool {
-    background: white url("../img/pool-services.JPG") no-repeat;
+    background: white url("../img/pool-services.jpg") no-repeat;
 }
 .services-item_parking {
-    background: white url("../img/parking-services.JPG") no-repeat;
+    background: white url("../img/parking-services.jpg") no-repeat;
 }
 
 .services-link {
@@ -321,7 +321,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../img/special-arr.SVG");
+    background-image: url("../img/special-arr.svg");
     background-repeat: no-repeat;
     background-size: 11px 15px;
     background-position: right center;
@@ -366,26 +366,26 @@ section {
 }
 
 .advantages-item-bg_first {
-    background-image: url("../img/adv-first.SVG");
+    background-image: url("../img/adv-first.svg");
 }
 .advantages-item-bg_second {
-    background-image: url("../img/adv-second.SVG");
+    background-image: url("../img/adv-second.svg");
 
 }
 .advantages-item-bg_third {
-    background-image: url("../img/adv-third.SVG");
+    background-image: url("../img/adv-third.svg");
 
 }
 .advantages-item-bg_forth {
-    background-image: url("../img/adv-fourth.SVG");
+    background-image: url("../img/adv-fourth.svg");
 
 }
 .advantages-item-bg_fifth {
-    background-image: url("../img/adv-fifth.SVG");
+    background-image: url("../img/adv-fifth.svg");
 
 }
 .advantages-item-bg_sixth {
-    background-image: url("../img/adv-sixth.SVG");
+    background-image: url("../img/adv-sixth.svg");
 
 }
 .advantages-item-bg_seventh {
@@ -463,7 +463,7 @@ section {
     padding-bottom: 27px;
     align-items: flex-end;
     justify-content: center;
-    background-image: url("../img/hotel-vari.JPG");
+    background-image: url("../img/hotel-vari.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +473,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../img/white-trian.SVG");
+    background-image: url("../img/white-trian.svg");
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: right center;
