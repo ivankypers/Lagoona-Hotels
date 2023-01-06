@@ -129,7 +129,7 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    background-image: url("../_img/head-login.SVG");
+    background-image: url("../img/head-login.SVG");
     background-repeat: no-repeat;
     background-size: 21px 12px;
     background-position: left center;
@@ -208,17 +208,17 @@ section {
 }
 
 .special-item_place1 {
-    background-image: url("../_img/maldives.JPG");
+    background-image: url("../img/maldives.JPG");
 }
 
 .special-item_place2 {
-    background-image: url("../_img/krit.JPG");
+    background-image: url("../img/krit.JPG");
 }
 
 .special-item_hotels {
     flex-direction: column;
     justify-content: center;
-    background-image: url("../_img/numbers.JPG");
+    background-image: url("../img/numbers.JPG");
 }
 
 .special-caption_hotels {
@@ -259,7 +259,7 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    background-image: url("../_img/special-arr.SVG");
+    background-image: url("../img/special-arr.SVG");
     background-repeat: no-repeat;
     background-size: 11px 12px;
     background-position: right center;
@@ -304,16 +304,16 @@ section {
 }
 
 .services-item_service {
-    background: white url("../_img/services-img.JPG") no-repeat;
+    background: white url("../img/services-img.JPG") no-repeat;
 }
 .services-item_rent {
-    background: white url("../_img/banket-services.JPG") no-repeat;
+    background: white url("../img/banket-services.JPG") no-repeat;
 }
 .services-item_pool {
-    background: white url("../_img/pool-services.JPG") no-repeat;
+    background: white url("../img/pool-services.JPG") no-repeat;
 }
 .services-item_parking {
-    background: white url("../_img/parking-services.JPG") no-repeat;
+    background: white url("../img/parking-services.JPG") no-repeat;
 }
 
 .services-link {
@@ -321,7 +321,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../_img/special-arr.SVG");
+    background-image: url("../img/special-arr.SVG");
     background-repeat: no-repeat;
     background-size: 11px 15px;
     background-position: right center;
@@ -366,34 +366,34 @@ section {
 }
 
 .advantages-item-bg_first {
-    background-image: url("../_img/adv-first.SVG");
+    background-image: url("../img/adv-first.SVG");
 }
 .advantages-item-bg_second {
-    background-image: url("../_img/adv-second.SVG");
+    background-image: url("../img/adv-second.SVG");
 
 }
 .advantages-item-bg_third {
-    background-image: url("../_img/adv-third.SVG");
+    background-image: url("../img/adv-third.SVG");
 
 }
 .advantages-item-bg_forth {
-    background-image: url("../_img/adv-fourth.SVG");
+    background-image: url("../img/adv-fourth.SVG");
 
 }
 .advantages-item-bg_fifth {
-    background-image: url("../_img/adv-fifth.SVG");
+    background-image: url("../img/adv-fifth.SVG");
 
 }
 .advantages-item-bg_sixth {
-    background-image: url("../_img/adv-sixth.SVG");
+    background-image: url("../img/adv-sixth.SVG");
 
 }
 .advantages-item-bg_seventh {
-    background-image: url("../_img/adv-seventh.svg");
+    background-image: url("../img/adv-seventh.svg");
 
 }
 .advantages-item-bg_eighth {
-    background-image: url("../_img/adv-eighth.svg");
+    background-image: url("../img/adv-eighth.svg");
 
 }
 
@@ -463,7 +463,7 @@ section {
     padding-bottom: 27px;
     align-items: flex-end;
     justify-content: center;
-    background-image: url("../_img/hotel-vari.JPG");
+    background-image: url("../img/hotel-vari.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +473,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../_img/white-trian.SVG");
+    background-image: url("../img/white-trian.SVG");
     background-repeat: no-repeat;
     background-size: 15px 15px;
     background-position: right center;
@@ -616,7 +616,7 @@ section {
     padding: 45px;
     background-color: #333333;
     border-radius: 15px;
-    background-image: url("../_img/footer-logo.SVG");
+    background-image: url("../img/footer-logo.SVG");
     background-repeat: no-repeat;
     background-position: 80% 100%;
 }
@@ -678,7 +678,7 @@ section {
 
 .social-item_ta {
     display: block;
-    background-image: url("../_img/tripad.SVG");
+    background-image: url("../img/tripad.SVG");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
@@ -687,7 +687,7 @@ section {
 }
 .social-item_ok {
     display: block;
-    background-image: url("../_img/ok.SVG");
+    background-image: url("../img/ok.SVG");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
@@ -696,7 +696,7 @@ section {
 }
 .social-item_vk {
     display: block;
-    background-image: url("../_img/vk.SVG");
+    background-image: url("../img/vk.SVG");
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
