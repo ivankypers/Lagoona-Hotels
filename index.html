@@ -405,7 +405,7 @@
         <section class="tour">
             <div class="container tour-container">
                 <h2 class="section-title tour-title">Хочу Тур</h2>
-                <form action="https://jsonplaceholder.typicode.com/posts">
+                <form action="https://jsonplaceholder.typicode.com/posts" class="form">
                     <div class="form-wrapper flex">
                         <div class="select-wrapper">
                             <label>
@@ -433,13 +433,13 @@
                         <div class="input-wrapper">
                             <label>
                                 <span class="form-title">Ночей</span>
-                            <input class="form-input" type="number" name="nights" min="1" step="1" required>
+                            <input class="form-input" type="number" name="nights" value="1"  min="1" step="1" required>
                             </label>
                         </div>
                         <div class="input-wrapper">
                             <label>
                                 <span class="form-title">Туристы</span>
-                            <input class="form-input" type="number" name="amount-tourists" min="1" max="20" step="1" required>
+                            <input class="form-input" type="number" name="amount-tourists" value="1" min="1" max="20" step="1" required>
                             </label>
                         </div>
                         <button class="btn form-btn">Найти</button>
@@ -448,6 +448,61 @@
 
                 </form>
             </div>
+        </section>
+        <section class="contacts">
+            <div class="container">                                          <!--No words........-->
+                <h2 class="section-title contacts-title">Контакты</h2>
+            </div>
+            <div class="container contacts-container flex">
+                <div class="contacts-content">
+                    <div class="contacts-wrapper">
+                        <address class="contacts-address">
+                            <div class="contact-item">
+                                <span class="contacts-name">Адрес</span>
+                            </div>
+                            <div class="contact-dsc">
+                                <p class="contacts-dsc">Москва, улица Юности, дом 5 строение 4, офис 2</p>
+                            </div>
+                        </address>
+                        <address class="contacts-address">
+                            <div class="contact-item">
+                                <span class="contacts-name">Телефоны</span>
+                            </div>
+                            <div class="contact-dsc">
+                                <a href="tel:+74995356434" class="contacts-link">+7 499 535-64-34</a>
+                                <a href="tel:+74995356434" class="contacts-link">+7 499 535-64-34</a>
+
+                            </div>
+                        </address>
+                        <address class="contacts-address">
+                            <div class="contact-item">
+                                <span class="contacts-name">Email</span>
+                            </div>
+                            <div class="contact-dsc">
+                                <a href="mailto:lg.oona@mail.ru" class="contacts-link">lg.oona@mail.ru</a>
+                                <span class="mail-dsc">по вопросам бронирования</span>
+                                <a href="mailto:hotels.ln@mail.ru" class="contacts-link">hotels.ln@mail.ru</a>
+                                <span class="mail-dsc">по вопросам сотрудничества</span>
+                            </div>
+                        </address>
+                        <address class="contacts-address">
+                            <div class="contact-item">
+                                <span class="contacts-name">График</span>
+                            </div>
+                            <div class="contact-dsc">
+                                <p class="contacts-dsc">Понедельник-пятница, с 10:00 до 19:00</p>
+                            </div>
+                        </address>
+                    </div>
+                    <button class="btn contacts-btn">
+                        Построить Маршрут
+                    </button>
+                </div>
+                <div class="contacts-img">
+                    <img src="/img/contacts-image.jpg" alt="Contacts">
+                </div>
+            </div>
+
         </section>
 
     </main>
