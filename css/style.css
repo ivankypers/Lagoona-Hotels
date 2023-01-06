@@ -259,7 +259,7 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
-    background-image: url("../_images/special-arr.svg");
+    background-image: url("../_images/specialarr.svg");
     background-repeat: no-repeat;
     background-size: 11px 12px;
     background-position: right center;
@@ -304,16 +304,16 @@ section {
 }
 
 .services-item_service {
-    background: white url("../_images/services-img.jpg") no-repeat;
+    background: white url("../_images/servicesimg.jpg") no-repeat;
 }
 .services-item_rent {
     background: white url("../_images/banketservices.jpg") no-repeat;
 }
 .services-item_pool {
-    background: white url("../_images/pool-services.jpg") no-repeat;
+    background: white url("../_images/poolservices.jpg") no-repeat;
 }
 .services-item_parking {
-    background: white url("../_images/parking-services.jpg") no-repeat;
+    background: white url("../_images/parkingservices.jpg") no-repeat;
 }
 
 .services-link {
@@ -321,7 +321,7 @@ section {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
-    background-image: url("../_images/special-arr.svg");
+    background-image: url("../_images/specialarr.svg");
     background-repeat: no-repeat;
     background-size: 11px 15px;
     background-position: right center;
